@@ -1,0 +1,110 @@
+{
+	"id": "9f71c360-9761-4024-bb8c-71e9cb2c30a7",
+	"name": "New Collection",
+	"timestamp": "2025-05-16T08:16:08.091Z",
+	"collection_id": "33128352-82d32a1c-f4b7-410e-81b9-72e75b00360a",
+	"folder_id": 0,
+	"environment_id": "33128352-607bbcb7-3cff-46ac-959a-10428ca623f4",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-16T08:16:07.010Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "79eb8037-b7ec-4244-b6e7-32bc7993c320",
+			"name": "http://localhost:8080/doctors",
+			"url": "http://localhost:8080/suggestion/doctor/1",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "678ca2ad-51ff-4cf1-be33-db091d468211",
+			"name": "http://localhost:8080/doctors Copy",
+			"url": "http://localhost:8080/suggestion/doctor/1",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2319ef0f-e327-4527-8b05-0199c16836f2",
+			"name": "http://localhost:8080/doctors",
+			"url": "http://localhost:8080/suggestion/doctor/1",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				16
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "49fd3425-28c2-4ddb-813f-c899c3f190b5",
+			"name": "http://localhost:8080/doctors",
+			"url": "http://localhost:8080/suggestion/doctor/1",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				13
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 48,
+	"collection": {
+		"requests": [
+			{
+				"id": "79eb8037-b7ec-4244-b6e7-32bc7993c320",
+				"method": "GET"
+			},
+			{
+				"id": "678ca2ad-51ff-4cf1-be33-db091d468211",
+				"method": "GET"
+			},
+			{
+				"id": "2319ef0f-e327-4527-8b05-0199c16836f2",
+				"method": "GET"
+			},
+			{
+				"id": "49fd3425-28c2-4ddb-813f-c899c3f190b5",
+				"method": "GET"
+			}
+		]
+	}
+}
